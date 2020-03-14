@@ -6,7 +6,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({  
       filename: 'index.html',
-      template: 'src/index.html',
+      template: 'source/index.html',
       templateParameters: {
         title: 'Webpack example',
         text: 'Hello world!',
@@ -14,7 +14,7 @@ module.exports = {
       hash: true
     }),
     new MiniCSSExtractPlugin({
-      filename: "./css/styles.css",
+      filename: "./styles.css",
     })
   ],
   module: {
