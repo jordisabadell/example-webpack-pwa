@@ -11,6 +11,17 @@ Enllaç: https://desarrolloweb.com/manuales/manual-webpack.html
 ### Pas a pas Integració contínua Angular, GitHub, Firebase i TravisCI
 https://medium.com/angular-chile/integraci%C3%B3n-continua-angular-github-firebase-travis-ci-a1a8946d471a
 
+> ***Important!*** Aquest pas a pas és per una app Angular. Cal adaptar-lo a l'entorn Webpack
+
+Modificar l'arxiu ***.travis.yml*** perquè en comptes d'executar l'app angular executi la comanda * * npm run build * * de la nostra aplicació. 
+```
+before_script:
+  - npm install -g firebase-tools
+script:
+  - npm run build 
+after_success:
+  - firebase deploy --token $FIREBASE_TOKEN
+```
 ### Guia per convertir una web en PWA
 https://vaadin.com/learn/tutorials/learn-pwa/turn-website-into-a-pwa
 
