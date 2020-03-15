@@ -6,7 +6,8 @@ L'objectiu d'aquest projecte és crear la base d'una PWA empaquetada amb Webpack
 
 ### Manual Webpack 
 Explica com configurar un entorn Webpack. Inclou la compilació dels arxius Sass.
-Enllaç: https://desarrolloweb.com/manuales/manual-webpack.html
+
+https://desarrolloweb.com/manuales/manual-webpack.html
 
 ### Pas a pas Integració contínua Angular, GitHub, Firebase i TravisCI
 https://medium.com/angular-chile/integraci%C3%B3n-continua-angular-github-firebase-travis-ci-a1a8946d471a
