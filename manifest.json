@@ -1,9 +1,16 @@
 {
-    "name": "Webpack example",
-    "short_name": "Webpack example",
-    "start_url": ".",
-    "display": "standalone",
-    "background_color": "#fff",
-    "description": "Webpack example",
-    "theme_color": "#666666"
-  }
+  "name": "Webpack example",
+  "short_name": "Webpack example",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "Webpack example",
+  "theme_color": "#666666",
+  "icons": [
+    {
+      "src": "./img/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
