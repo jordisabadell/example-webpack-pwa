@@ -2,9 +2,24 @@
 
 L'objectiu d'aquest projecte és crear la base d'una PWA empaquetada amb Webpack en un entorn de CI/CD mitjançant GitHub, TravisCI i Firebase.
 
-## Manual
-[Manual de Webpack Desarrollo Web](https://desarrolloweb.com/manuales/manual-webpack.html)
-Tutorial que explica com crear una Webpack (configuració, transpilació, Sass, etc).
+## Bibliografia utilitzada
+
+### Manual Webpack 
+Explica com configurar un entorn Webpack. Inclou la compilació dels arxius Sass.
+Enllaç: https://desarrolloweb.com/manuales/manual-webpack.html
+
+### Pas a pas Integració contínua Angular, GitHub, Firebase i TravisCI
+https://medium.com/angular-chile/integraci%C3%B3n-continua-angular-github-firebase-travis-ci-a1a8946d471a
+
+### Guia per convertir una web en PWA
+https://vaadin.com/learn/tutorials/learn-pwa/turn-website-into-a-pwa
+
+### Guia per afegir un Service Worker en un entorn Webpack
+https://developers.google.com/web/tools/workbox/guides/generate-service-worker/webpack
+
+### Webpack plugin per crear l'arxiu Manifest.json en un entorn Webpack
+https://www.npmjs.com/package/webpack-pwa-manifest
+
 
 ## IDE
 [Visual Studio Code](https://code.visualstudio.com/)
