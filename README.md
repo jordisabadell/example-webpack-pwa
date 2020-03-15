@@ -2,6 +2,8 @@
 
 L'objectiu d'aquest projecte és crear la base d'una PWA empaquetada amb Webpack en un entorn de CI/CD mitjançant GitHub, TravisCI i Firebase.
 
+- TravisCI vs. Jenkins [https://www.guru99.com/jenkins-vs-travis.html](https://www.guru99.com/jenkins-vs-travis.html)
+
 ## Bibliografia utilitzada
 
 ### Manual Webpack 
