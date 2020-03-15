@@ -1,0 +1,55 @@
+{
+  "icons": [
+    {
+      "src": "icon_1024x1024.35a635a6c61497e3e5c08c0d66a2816f.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon_1024x1024.35a635a6c61497e3e5c08c0d66a2816f.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_512x512.8f8add55213c1dd7bf248e06cb5ff6df.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_384x384.b733d903572fbd037a62fc4e123fd20d.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_256x256.a5d971d64255069495e9932064a37d8d.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_192x192.4a4c4bcc527146bc3a7a020fbfea21c0.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_128x128.d8a1137ec8075554bb23391f8eb65d6f.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_96x96.bb09cb0142cc32d4f265ca5d02c20409.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Webpack example",
+  "short_name": "WPE",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/index.html",
+  "description": "Hello world!",
+  "theme_color": "#f5f5f5",
+  "background_color": "#ffffff",
+  "scope": "/",
+  "splash_pages": null
+}

@@ -22,7 +22,33 @@ module.exports = {
       filename: "./styles.css",
     }),
     new WorkboxPlugin.GenerateSW(),
-    new WebpackPwaManifest()
+    new WebpackPwaManifest({
+      name: 'Webpack example',
+      short_name: 'WPE',
+      description: 'Hello world!',
+      theme_color: '#f5f5f5',
+      display: "standalone",
+      orientation: "portrait",
+      background_color: '#ffffff',      
+      scope: "/",
+      start_url: "/index.html",
+      splash_pages: null,
+      icons: [
+        {
+        src: path.resolve('source/assets/icon.png'),
+        sizes: [96, 128, 192, 256, 384, 512] // multiple sizes
+        },
+        {
+        src: path.resolve('source/assets/large-icon.png'),
+        size: '1024x1024' // you can also use the specifications pattern
+        },
+        {
+        src: path.resolve('source/assets/maskable-icon.png'),
+        size: '1024x1024',
+        purpose: 'maskable'
+        }
+      ]
+    })
   ],
   module: {
     rules: [
