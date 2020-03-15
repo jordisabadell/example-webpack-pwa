@@ -1,22 +1,18 @@
-# Manual de Webpack
-Exemple d'entorn de desenvolupament HTML, CSS, JavaScript utilitzant Webpack. Basat en el manual original [https://desarrolloweb.com/manuales/manual-webpack.html](https://desarrolloweb.com/manuales/manual-webpack.html)
+# Webpack PWA example
 
-## Instal·lar
-```
-npm install
-```
+L'objectiu d'aquest projecte és crear la base d'una PWA empaquetada amb Webpack en un entorn de CI/CD mitjançant GitHub, TravisCI i Firebase.
 
-## Executar en local (inclou servidor)
-```
-npm run start
-```
+## Manual
+(Manual de Webpack Desarrollo Web)[https://desarrolloweb.com/manuales/manual-webpack.html]
+Tutorial que explica com crear una Webpack (configuració, transpilació, Sass, etc).
 
-## Compilar per desenvolupament
-```
-npm run builddev
-```
+## IDE
+(Visual Studio Code)[https://code.visualstudio.com/]
 
-## Compilar per producció
+Per habiliar l'execució d'scripts des de la Terminal de VSCode (Powershell). Executar la següent comanda, amb permisos d'administrador, des de la pròpia Terminal de VSCode.
 ```
-npm run build
+Set-ExecutionPolicy Unrestricted
 ```
+Font: https://www.alexmedina.net/habilitar-la-ejecucion-de-scripts-para-powershell/
+
+
