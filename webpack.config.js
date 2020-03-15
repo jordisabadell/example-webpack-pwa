@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCSSExtractPlugin = require('mini-css-extract-plugin');
+const WorkboxPlugin = require('workbox-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -18,7 +19,8 @@ module.exports = {
     }),
     new MiniCSSExtractPlugin({
       filename: "./styles.css",
-    })
+    }),
+    new WorkboxPlugin.GenerateSW()
   ],
   module: {
     rules: [

@@ -1,0 +1,9 @@
+{
+    "name": "Webpack example",
+    "short_name": "Webpack example",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "Webpack example",
+    "theme_color": "#666666"
+  }
