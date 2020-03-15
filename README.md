@@ -33,14 +33,50 @@ https://developers.google.com/web/tools/workbox/guides/generate-service-worker/w
 https://www.npmjs.com/package/webpack-pwa-manifest
 
 
-## IDE
-[Visual Studio Code](https://code.visualstudio.com/)
+## IDE Visual Studio Code
 
 ### Solució al problema d'execució d'scripts des de la Terminal de VSCode
-Per habiliar l'execució d'scripts des de la Terminal de VSCode (Powershell). Executar la següent comanda, amb permisos d'administrador, des de la pròpia Terminal de VSCode.
+Per habiliar l'execució d'scripts des de la Terminal de VSCode (Powershell) executar la següent comanda, amb permisos d'administrador, des de la mateixa terminal:
 ```
 Set-ExecutionPolicy Unrestricted
 ```
-Font: https://www.alexmedina.net/habilitar-la-ejecucion-de-scripts-para-powershell/
 
+## Comandes per executar l'aplicació
 
+Instal·lar
+```
+npm install
+```
+
+Compilar per desenvolupament
+```
+npm run builddev
+```
+
+Compilar per producció
+```
+npm run build
+```
+
+Compilar + executar servidor
+```
+npm run start
+```
+
+## Comandes GIT utilitzades
+
+Commit + push
+```
+git init
+git add .
+git commit -m "Comment"
+git remote add origin https://github.com/jordisabadell/webpack-example
+git remote -v //verify
+git push -u origin master
+```
+
+Ressetejar del master 
+```
+git fetch origin
+git reset --hard origin/master
+```
