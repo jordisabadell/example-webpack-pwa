@@ -41,7 +41,7 @@ Per habiliar l'execució d'scripts des de la Terminal de VSCode (Powershell) exe
 Set-ExecutionPolicy Unrestricted
 ```
 
-## Comandes per executar l'aplicació
+## Comandes NodeJs
 
 Instal·lar
 ```
@@ -63,7 +63,7 @@ Compilar + executar servidor
 npm run start
 ```
 
-## Comandes GIT utilitzades
+## Comandes GIT
 
 Commit + push
 ```
