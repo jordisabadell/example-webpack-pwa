@@ -90,7 +90,7 @@ git fetch origin
 git reset --hard origin/master
 ```
 
-Comandes Firebase
+## Comandes Firebase
 ```
 npm install -g firebase-tools
 firebase login
