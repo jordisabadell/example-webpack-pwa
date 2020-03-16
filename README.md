@@ -67,7 +67,14 @@ npm run start
 
 ## Comandes GIT
 
-Commit + push
+Descarregar repositori
+```
+git init
+git remote add origin https://github.com/jordisabadell/webpack-example
+git pull origin master
+```
+
+Commit + Pujar repositori
 ```
 git init
 git add .
