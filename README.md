@@ -74,7 +74,7 @@ git remote add origin https://github.com/jordisabadell/webpack-example
 git pull origin master
 ```
 
-Commit + Pujar repositori
+Commit + Connectar repositori + Pujar
 ```
 git init
 git add .
