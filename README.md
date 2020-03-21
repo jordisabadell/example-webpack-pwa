@@ -37,64 +37,15 @@ https://www.npmjs.com/package/webpack-pwa-manifest
 
 ## IDE Visual Studio Code
 
-### Solució al problema d'execució d'scripts des de la Terminal de VSCode
+**Solució al problema d'execució d'scripts des de la Terminal de VSCode**
 Per habiliar l'execució d'scripts des de la Terminal de VSCode (Powershell) executar la següent comanda, amb permisos d'administrador, des de la mateixa terminal:
 ```
 Set-ExecutionPolicy Unrestricted
 ```
 
-## Comandes NodeJs
-
-Instal·lar
+## Comandes per iniciar el projecte
 ```
 npm install
-```
-
-Compilar per desenvolupament
-```
-npm run builddev
-```
-
-Compilar per producció
-```
-npm run build
-```
-
-Compilar + executar servidor
-```
+npm run build 
 npm run start
 ```
-
-## Comandes GIT
-
-Descarregar repositori
-```
-git init
-git remote add origin https://github.com/jordisabadell/webpack-example
-git pull origin master
-```
-
-Commit + Connectar repositori + Pujar
-```
-git init
-git add .
-git commit -m "Comment"
-git remote add origin https://github.com/jordisabadell/webpack-example
-git remote -v //verify
-git push -u origin master
-```
-
-Ressetejar del master 
-```
-git fetch origin
-git reset --hard origin/master
-```
-
-## Comandes Firebase
-```
-npm install -g firebase-tools
-firebase login
-firebase init
-firebase deploy
-```
-
